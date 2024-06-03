@@ -1,0 +1,21 @@
+{
+  "name": "15-lights",
+  "version": "1.0.0",
+  "description": "## Setup Download [Node.js](https://nodejs.org/en/download/). Run this followed commands:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "host": "vite --host",
+    "build": "vite build",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lil-gui": "^0.19.2",
+    "three": "^0.162.0",
+    "vite": "^5.2.5"
+  }
+}
